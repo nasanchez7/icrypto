@@ -1,0 +1,11 @@
+colorFondo: #1A1C22
+colorFondoDos: #3D3A50
+violeta: #580EF6
+Letras: #F7F7F7
+
+Gradiente: 
+
+background: #282634;
+background: -moz-linear-gradient(45deg, #282634 0%, #27076F 100%);
+background: -webkit-linear-gradient(45deg, #282634 0%, #27076F 100%);
+background: linear-gradient(45deg, #282634 0%, #27076F 100%);
