@@ -1,0 +1,26 @@
+.info{
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    .info2{
+        margin-top: 35px;
+        h2{
+            color: $colorLetra;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        h4{
+            color: rgb(83, 83, 83);
+            margin-bottom: 20px;
+        }
+        
+    }
+    img{
+        height: 400px;
+    }
+    img:hover{
+        transform: scale(1.1);
+        transition: 3s;
+    }
+}

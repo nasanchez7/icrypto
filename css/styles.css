@@ -1,1 +1,116 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.botonWallet {
+  list-style-type: none;
+  background-color: #580EF6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 70px;
+  color: #F7F7F7;
+  cursor: pointer;
+}
+
+.botonWallet:hover {
+  transition: 0.3s;
+  background-color: #290e63;
+}
+
+.botonNav {
+  list-style-type: none;
+  padding: 10px 20px;
+  margin-left: 70px;
+  color: #F7F7F7;
+  cursor: pointer;
+}
+
+.botonNav:hover {
+  background-color: #580EF6;
+  transition: 0.3s;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.boton {
+  background-color: #580EF6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #F7F7F7;
+  cursor: pointer;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.boton:hover {
+  transition: 0.3s;
+  background-color: #290e63;
+}
+
+.info {
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.info .info2 {
+  margin-top: 35px;
+}
+
+.info .info2 h2 {
+  color: #F7F7F7;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.info .info2 h4 {
+  color: #535353;
+  margin-bottom: 20px;
+}
+
+.info img {
+  height: 400px;
+}
+
+.info img:hover {
+  transform: scale(1.1);
+  transition: 3s;
+}
+
+header {
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 50px;
+}
+
+nav img {
+  width: 120px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  background: #020024;
+  background: linear-gradient(38deg, #020024 0%, #1a1c22 47%, #33196c 100%);
+}
+/*# sourceMappingURL=styles.css.map */

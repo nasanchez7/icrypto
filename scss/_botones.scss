@@ -1,0 +1,39 @@
+.botonWallet{
+    list-style-type: none;
+    background-color: $colorTerciario;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 70px;
+    color: $colorLetra;
+    cursor: pointer;
+}    
+.botonWallet:hover{
+    transition: 0.3s;
+    background-color: #290e63;
+}
+.botonNav{
+    list-style-type: none;
+    padding: 10px 20px;
+    margin-left: 70px;
+    color: $colorLetra;
+    cursor: pointer;
+}
+.botonNav:hover{
+    background-color: $colorTerciario;
+    transition: 0.3s;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.boton{
+    background-color: $colorTerciario;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: $colorLetra;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.boton:hover{
+    transition: 0.3s;
+    background-color: #290e63;
+}
