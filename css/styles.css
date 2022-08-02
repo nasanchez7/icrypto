@@ -55,6 +55,7 @@
 .info {
   height: 85vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 50px;
 }
@@ -230,6 +231,10 @@ nav a {
   color: #F7F7F7;
 }
 
+nav .ocultarDesktop {
+  display: none;
+}
+
 footer {
   height: 230px;
   background-color: #0B0B0C;
@@ -301,6 +306,57 @@ footer .acercaDe li {
 footer .acercaDe li a {
   text-decoration: none;
   color: #535353;
+}
+
+@media screen and (max-width: 480px) {
+  .info {
+    padding: 0px;
+    width: 100%;
+    justify-content: start;
+  }
+  .info .imgBanner {
+    display: none;
+  }
+  .info .info2 h2 {
+    font-size: 35px;
+  }
+  .market .cryptos {
+    width: 100%;
+  }
+  .app {
+    flex-wrap: wrap;
+  }
+  .app .infoApp h2 {
+    font-size: 40px;
+  }
+  .app .infoApp .infoDos-app h3 {
+    font-size: 15px;
+  }
+  .app .imgApp {
+    display: none;
+  }
+  footer {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  nav img {
+    width: 80px;
+  }
+  nav .ocultarMobile {
+    display: none;
+  }
+  nav .ocultarDesktop {
+    display: unset;
+  }
+  nav i {
+    font-size: 30px;
+    color: #F7F7F7;
+    margin-left: 90px;
+  }
 }
 
 * {

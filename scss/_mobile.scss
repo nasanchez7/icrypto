@@ -1,0 +1,66 @@
+@media screen and (max-width: 480px){
+    .info{
+        padding: 0px;
+        width: 100%;
+        justify-content: start;
+        .imgBanner{
+            display: none;
+        }
+        .info2{
+            h2{
+                font-size: 35px;
+            }
+        }
+    }
+
+    .market{
+        .cryptos{
+            width: 100%;
+        }
+    }
+
+    .app{
+        flex-wrap: wrap;
+        .infoApp{
+            h2{
+                font-size: 40px;
+            }
+            .infoDos-app{
+                h3{
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .imgApp{
+            display: none;
+        }
+    }
+
+
+    footer{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    //Nav
+
+    nav{
+        width: 100%;
+        justify-content: flex-start;
+        img{
+            width: 80px;
+        }
+        .ocultarMobile{
+            display: none;
+        }
+        .ocultarDesktop{
+            display: unset;
+        }
+        i{  
+            font-size: 30px;
+            color: $colorLetra;
+            margin-left: 90px;
+        }
+    }
+}
