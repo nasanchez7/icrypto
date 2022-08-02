@@ -37,14 +37,22 @@
     h2{
         color: $colorLetra;
         padding-left: 30px;
-        padding-top: 30px;
     }
     .cryptos{
-            width: 80%;
-            height: 80%;
+            width: 90%;
+            height: 90%;
             background-color: $colorSecundario;
             border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 10px;
             .crypto{
+                background: rgba(0, 0, 0, 0.17);
+                backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                padding: 10px;
+                border-radius: 10px;
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
@@ -52,6 +60,10 @@
                 h3{
                     color: $colorLetra;
                 }
+            }
+            .crypto:hover{
+                background: rgba(0, 0, 0, 0.40);
+                transition: 0.5s;
             }
     }
 

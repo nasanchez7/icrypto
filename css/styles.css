@@ -86,17 +86,25 @@
 .market h2 {
   color: #F7F7F7;
   padding-left: 30px;
-  padding-top: 30px;
 }
 
 .market .cryptos {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   background-color: #3D3A50;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
 }
 
 .market .cryptos .crypto {
+  background: rgba(0, 0, 0, 0.17);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 10px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -105,6 +113,11 @@
 
 .market .cryptos .crypto h3 {
   color: #F7F7F7;
+}
+
+.market .cryptos .crypto:hover {
+  background: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
 }
 
 .cajaCrypto {
