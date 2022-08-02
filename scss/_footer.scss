@@ -1,0 +1,52 @@
+footer{
+    height: 230px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    padding: 30px;
+    .contacto{
+        margin-left: 50px;
+        h2{
+            color: $colorLetra;
+        }
+        li{
+            list-style-type: none;
+            color: rgb(83, 83, 83);
+            cursor: pointer;
+        }
+        i{
+            color: $colorLetra;
+            font-size: 30px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        i:hover{
+            color: rgb(83, 83, 83);
+            transition: 0.3s;
+        }
+    }
+    .servicios{
+        margin-left: 50px;
+        h2{
+            color: $colorLetra;
+        }
+        li{
+            list-style-type: none;
+            color: rgb(83, 83, 83);
+            cursor: pointer;
+        }
+    }
+    img{
+        height: 50px;
+    }
+    .acercaDe{
+        margin-left: 50px;
+        h2{
+            color: $colorLetra;
+        }
+        li{
+            list-style-type: none;
+            color: rgb(83, 83, 83);
+            cursor: pointer;
+        }
+    }
+}

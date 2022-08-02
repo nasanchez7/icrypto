@@ -74,8 +74,43 @@
   transition: 3s;
 }
 
+.market {
+  background-color: #1A1C22;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.market h2 {
+  color: #F7F7F7;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.market .cryptos {
+  width: 80%;
+  height: 80%;
+  background-color: #3D3A50;
+  border-radius: 30px;
+}
+
+.market .cryptos .crypto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.market .cryptos .crypto h3 {
+  color: #F7F7F7;
+}
+
 header {
   height: 100vh;
+  background: #020024;
+  background: linear-gradient(38deg, #020024 0%, #1a1c22 47%, #33196c 100%);
 }
 
 nav {
@@ -83,12 +118,11 @@ nav {
   height: 15vh;
   align-items: center;
   justify-content: space-between;
-  margin: 20px;
   padding: 50px;
 }
 
 nav img {
-  width: 120px;
+  width: 110px;
   cursor: pointer;
 }
 
@@ -97,20 +131,83 @@ nav ul {
   align-items: center;
 }
 
+nav a {
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
+footer {
+  height: 230px;
+  background-color: #202020;
+  display: flex;
+  padding: 30px;
+}
+
+footer .contacto {
+  margin-left: 50px;
+}
+
+footer .contacto h2 {
+  color: #F7F7F7;
+}
+
+footer .contacto li {
+  list-style-type: none;
+  color: #535353;
+  cursor: pointer;
+}
+
+footer .contacto i {
+  color: #F7F7F7;
+  font-size: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+footer .contacto i:hover {
+  color: #535353;
+  transition: 0.3s;
+}
+
+footer .servicios {
+  margin-left: 50px;
+}
+
+footer .servicios h2 {
+  color: #F7F7F7;
+}
+
+footer .servicios li {
+  list-style-type: none;
+  color: #535353;
+  cursor: pointer;
+}
+
+footer img {
+  height: 50px;
+}
+
+footer .acercaDe {
+  margin-left: 50px;
+}
+
+footer .acercaDe h2 {
+  color: #F7F7F7;
+}
+
+footer .acercaDe li {
+  list-style-type: none;
+  color: #535353;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
-  height: 100%;
-  background: #020024;
-  background: linear-gradient(38deg, #020024 0%, #1a1c22 47%, #33196c 100%);
 }
 /*# sourceMappingURL=styles.css.map */
