@@ -33,6 +33,7 @@ async function obtenerCryptos (){
         <h3>${crypto.name}</h3>
         <h3>${crypto.symbol}</h3>
         <h3>${precioDos} USD</h3>
+        <button class="botonDos" >Trade</button>
         `
 
         contenedorCryptos.appendChild(tarjeta);

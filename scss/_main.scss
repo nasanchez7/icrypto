@@ -7,7 +7,7 @@
         margin-top: 35px;
         h2{
             color: $colorLetra;
-            font-size: 40px;
+            font-size: 55px;
             margin-bottom: 10px;
         }
         h4{
@@ -17,7 +17,7 @@
         
     }
     img{
-        height: 400px;
+        height: 380px;
     }
     img:hover{
         transform: scale(1.1);
@@ -28,25 +28,25 @@
 //Caja de principales cryptos
 
 .market{
-    background-color: $colorPrimario;
-    height: 100vh;
+    background-color: #121212;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
     h2{
         color: $colorLetra;
         padding-left: 30px;
     }
     .cryptos{
             width: 90%;
-            height: 90%;
-            background-color: $colorSecundario;
+            height: auto;
+            background-color: #0B0B0C;
             border-radius: 30px;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            padding: 10px;
+            padding: 20px;
             .crypto{
                 background: rgba(0, 0, 0, 0.17);
                 backdrop-filter: blur(20px);
@@ -102,4 +102,40 @@
         background: rgba(0, 0, 0, 0.40);
         transition: 0.5s;
     }
+}
+
+//Seccion app mobile
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(38deg, rgba(2,0,36,1) 0%, rgba(26,28,34,1) 47%, rgba(51,25,108,1) 100%);
+    .imgApp{
+    }
+    .infoApp{
+        h2{
+            color: $colorLetra;
+            font-size: 50px;
+        }
+        h3{
+            color: rgb(83, 83, 83);
+            margin-bottom: 20px;
+        }
+        img{
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .infoDos-app{
+            display: flex;
+            i{  
+                color: $colorTerciario;
+                font-size: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+
 }

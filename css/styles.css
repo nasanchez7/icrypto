@@ -43,6 +43,15 @@
   background-color: #290e63;
 }
 
+.botonDos {
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #F7F7F7;
+  border: 1px solid #F7F7F7;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 .info {
   height: 85vh;
   display: flex;
@@ -56,7 +65,7 @@
 
 .info .info2 h2 {
   color: #F7F7F7;
-  font-size: 40px;
+  font-size: 55px;
   margin-bottom: 10px;
 }
 
@@ -66,7 +75,7 @@
 }
 
 .info img {
-  height: 400px;
+  height: 380px;
 }
 
 .info img:hover {
@@ -75,12 +84,12 @@
 }
 
 .market {
-  background-color: #1A1C22;
-  height: 100vh;
+  background-color: #121212;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 20px;
 }
 
 .market h2 {
@@ -90,13 +99,13 @@
 
 .market .cryptos {
   width: 90%;
-  height: 90%;
-  background-color: #3D3A50;
+  height: auto;
+  background-color: #0B0B0C;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 10px;
+  padding: 20px;
 }
 
 .market .cryptos .crypto {
@@ -158,6 +167,40 @@
   transition: 0.5s;
 }
 
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: #020024;
+  background: linear-gradient(38deg, #020024 0%, #1a1c22 47%, #33196c 100%);
+}
+
+.app .infoApp h2 {
+  color: #F7F7F7;
+  font-size: 50px;
+}
+
+.app .infoApp h3 {
+  color: #535353;
+  margin-bottom: 20px;
+}
+
+.app .infoApp img {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.app .infoApp .infoDos-app {
+  display: flex;
+}
+
+.app .infoApp .infoDos-app i {
+  color: #580EF6;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
 header {
   height: 100vh;
   background: #020024;
@@ -189,7 +232,7 @@ nav a {
 
 footer {
   height: 230px;
-  background-color: #202020;
+  background-color: #0B0B0C;
   display: flex;
   padding: 30px;
 }
@@ -253,6 +296,11 @@ footer .acercaDe li {
   color: #535353;
   margin-top: 10px;
   cursor: pointer;
+}
+
+footer .acercaDe li a {
+  text-decoration: none;
+  color: #535353;
 }
 
 * {

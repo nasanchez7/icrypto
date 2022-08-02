@@ -37,3 +37,11 @@
     transition: 0.3s;
     background-color: #290e63;
 }
+.botonDos{
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: $colorLetra;
+    border: 1px solid $colorLetra;
+    border-radius: 10px;
+    cursor: pointer;
+}
