@@ -1,6 +1,6 @@
 ### iCrypto
 
-- [iCrypto](https://nasanchez7.github.io/ecommerce/ "iCrypto") es un proyecto creado a modo de practica para reforzar conocimientos en APIS y JavaScript.
+- [iCrypto](https://nasanchez7.github.io/icrypto/ "iCrypto") es un proyecto creado a modo de practica para reforzar conocimientos en APIS y JavaScript.
 
 ## Objetivo
 
@@ -16,7 +16,7 @@
 
 ## Librerias usadas
 
--
+-Animate.css
 
 ## API
 
