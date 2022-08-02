@@ -3,12 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 50px;
     .info2{
         margin-top: 35px;
         h2{
             color: $colorLetra;
-            font-size: 55px;
+            font-size: 50px;
             margin-bottom: 10px;
         }
         h4{
@@ -18,7 +17,7 @@
         
     }
     img{
-        height: 380px;
+        height: 330px;
     }
     img:hover{
         transform: scale(1.1);
