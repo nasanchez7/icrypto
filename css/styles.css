@@ -154,6 +154,7 @@ footer .contacto h2 {
 footer .contacto li {
   list-style-type: none;
   color: #535353;
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -180,6 +181,7 @@ footer .servicios h2 {
 footer .servicios li {
   list-style-type: none;
   color: #535353;
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -198,6 +200,7 @@ footer .acercaDe h2 {
 footer .acercaDe li {
   list-style-type: none;
   color: #535353;
+  margin-top: 10px;
   cursor: pointer;
 }
 
