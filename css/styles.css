@@ -230,7 +230,7 @@ nav a {
   color: #F7F7F7;
 }
 
-nav .ocultarDesktop {
+.ocultarDesktop {
   display: none;
 }
 
@@ -339,6 +339,7 @@ footer .acercaDe li a {
     height: auto;
   }
   nav {
+    overflow: hidden;
     width: 100%;
   }
   nav img {
@@ -354,6 +355,40 @@ footer .acercaDe li a {
     font-size: 30px;
     color: #F7F7F7;
     margin-left: 90px;
+  }
+  .barraMobileOculta {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: -100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.932);
+    z-index: 10;
+    transition: 0.5s;
+  }
+  .barraMobileOculta i {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .barraMobileOculta ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+  }
+  .barraMobileOculta ul li {
+    color: #F7F7F7;
+  }
+  .barraMobileOculta ul li a {
+    text-decoration: none;
+    color: #F7F7F7;
+  }
+  .barraMobileVisible {
+    transition: 0.5s;
+    left: 0vh;
   }
 }
 

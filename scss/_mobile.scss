@@ -1,4 +1,6 @@
 @media screen and (max-width: 480px){
+
+
     .info{
         padding: 0px;
         width: 100%;
@@ -46,6 +48,7 @@
     //Nav
 
     nav{
+        overflow: hidden;
         width: 100%;
         img{
             width: 80px;
@@ -61,5 +64,41 @@
             color: $colorLetra;
             margin-left: 90px;
         }
+
+    }
+
+    .barraMobileOculta{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: -100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.932);
+        z-index: 10;
+        transition: 0.5s;
+        i{
+            font-size: 25px;
+            margin-top: 30px;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 80%;
+            li{
+                a{
+                    text-decoration: none;
+                    color: $colorLetra;
+                }
+                color: $colorLetra;
+            }
+        }
+    }
+    .barraMobileVisible{
+        transition: 0.5s;
+        left: 0vh;
     }
 }

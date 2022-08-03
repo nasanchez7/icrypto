@@ -1,14 +1,14 @@
 //Funciones Local Storage
 
-function guardarCryptos(productos){
+export function guardarCryptos(productos){
     localStorage.setItem("cryptos", JSON.stringify(productos));
 }
-function obtenerCryptos(){
+export function obtenerCryptos(){
     return JSON.parse(localStorage.getItem("cryptos")) || [];
 }
 
 
-async function obtenerCryptos (){
+export async function renderCryptos (){
     const infoCryptos = await fetch(`https://api.coincap.io/v2/assets`);
     const cryptos = await infoCryptos.json();
     guardarCryptos(cryptos);
@@ -42,5 +42,3 @@ async function obtenerCryptos (){
 
 }
 
-
-obtenerCryptos();

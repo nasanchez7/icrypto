@@ -15,6 +15,17 @@
 </head>
 <body>
     
+    <div class="barraMobileOculta ocultarDesktop" id="barra">
+        <i class='bx bxs-x-circle' style='color:#ffffff' id="cerrarNav"></i>
+        <ul>
+            <li ><a href="./index.html">Inicio</a></li>
+            <li >Comprar Crypto</li>
+            <li >Vender Crypto</li>
+            <li >Cryptos</li>
+            <li >Wallet</li>
+        </ul>
+    </div>  
+
     <header class="animate__animated">
         <nav class="animate__animated animate__fadeInDown">
             <img src="./assets/img/logo.png" alt="">
@@ -27,9 +38,11 @@
                 <li class="botonWallet">Wallet</li>
             </ul>
 
-            <i class='bx bx-menu ocultarDesktop'></i>
+            <i class='bx bx-menu ocultarDesktop' id="mostrarNav"></i>
 
         </nav>
+
+
 
         <div class="info">
             <div class="info2 animate__animated animate__fadeInLeft">
@@ -170,7 +183,9 @@
             </ul>
         </div>
     </footer>
-     <script src="./assets/app.js"></script> 
+
+
+     <script src="./assets/JS/app.js" type="module"></script> 
 </body>
 </html>
 
