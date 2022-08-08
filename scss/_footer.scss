@@ -13,7 +13,10 @@ footer{
             color: rgb(83, 83, 83);
             margin-top: 10px;
             cursor: pointer;
-
+        }
+        li:hover{
+            color: rgb(114, 114, 114);
+            transition: 0.3s;
         }
         i{
             color: $colorLetra;
@@ -36,7 +39,18 @@ footer{
             color: rgb(83, 83, 83);
             margin-top: 10px;
             cursor: pointer;
-
+            a{
+                text-decoration: none;
+                color: rgb(83, 83, 83);
+            }
+            a:hover{
+                color: rgb(114, 114, 114);
+                transition: 0.3s;
+            }
+        }
+        li:hover{
+            color: rgb(114, 114, 114);
+            transition: 0.3s;
         }
     }
     img{
@@ -56,6 +70,14 @@ footer{
                 text-decoration: none;
                 color: rgb(83, 83, 83);
             }
+            a:hover{
+                color: rgb(114, 114, 114);
+                transition: 0.3s;
+            }
+        }
+        li:hover{
+            color: rgb(114, 114, 114);
+            transition: 0.3s;
         }
     }
 }

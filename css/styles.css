@@ -256,6 +256,11 @@ footer .contacto li {
   cursor: pointer;
 }
 
+footer .contacto li:hover {
+  color: #727272;
+  transition: 0.3s;
+}
+
 footer .contacto i {
   color: #F7F7F7;
   font-size: 30px;
@@ -283,6 +288,21 @@ footer .servicios li {
   cursor: pointer;
 }
 
+footer .servicios li a {
+  text-decoration: none;
+  color: #535353;
+}
+
+footer .servicios li a:hover {
+  color: #727272;
+  transition: 0.3s;
+}
+
+footer .servicios li:hover {
+  color: #727272;
+  transition: 0.3s;
+}
+
 footer img {
   height: 50px;
 }
@@ -305,6 +325,16 @@ footer .acercaDe li {
 footer .acercaDe li a {
   text-decoration: none;
   color: #535353;
+}
+
+footer .acercaDe li a:hover {
+  color: #727272;
+  transition: 0.3s;
+}
+
+footer .acercaDe li:hover {
+  color: #727272;
+  transition: 0.3s;
 }
 
 .fondoCryptos {
