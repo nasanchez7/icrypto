@@ -32,6 +32,10 @@
     cursor: pointer;
     border: none;
     font-family: 'Poppins', sans-serif;
+    a{
+        text-decoration: none;
+        color: $colorLetra;
+    }
 }
 .boton:hover{
     transition: 0.3s;

@@ -38,6 +38,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.boton a {
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
 .boton:hover {
   transition: 0.3s;
   background-color: #290e63;
@@ -375,6 +380,7 @@ footer .acercaDe li:hover {
     padding: 0px;
     width: 100%;
     justify-content: start;
+    align-items: center;
   }
   .info .imgBanner {
     display: none;
@@ -386,8 +392,7 @@ footer .acercaDe li:hover {
     width: 100%;
   }
   .info .cajaCrypto {
-    flex-direction: column;
-    margin-left: 10px;
+    display: none;
   }
   .market .cryptos {
     width: 100%;
