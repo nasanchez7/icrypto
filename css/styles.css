@@ -382,8 +382,18 @@ footer .acercaDe li:hover {
   .info .info2 h2 {
     font-size: 35px;
   }
+  .info .imagenCaja {
+    width: 100%;
+  }
+  .info .cajaCrypto {
+    flex-direction: column;
+    margin-left: 10px;
+  }
   .market .cryptos {
     width: 100%;
+  }
+  .market .cryptos .crypto h3 {
+    font-size: 10px;
   }
   .app {
     flex-wrap: wrap;
@@ -452,6 +462,11 @@ footer .acercaDe li:hover {
   .barraMobileVisible {
     transition: 0.5s;
     left: 0vh;
+  }
+  .cryptosContenedor {
+    align-items: flex-start;
+    overflow: hidden;
+    overflow-x: scroll;
   }
 }
 

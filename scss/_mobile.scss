@@ -13,11 +13,23 @@
                 font-size: 35px;
             }
         }
+        .imagenCaja{
+            width: 100%;
+        }
+        .cajaCrypto{
+            flex-direction: column;
+            margin-left: 10px;
+        }
     }
 
     .market{
         .cryptos{
             width: 100%;
+            .crypto{
+                h3{
+                    font-size: 10px;
+                }
+            }
         }
     }
 
@@ -100,5 +112,14 @@
     .barraMobileVisible{
         transition: 0.5s;
         left: 0vh;
+    }
+
+
+    //Cryptos
+
+    .cryptosContenedor{
+        align-items: flex-start;
+        overflow: hidden;
+        overflow-x: scroll;
     }
 }
