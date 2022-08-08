@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="../assets/img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Cryptos</title>
+</head>
+<body class="fondoCryptos">
+
+    <div class="barraMobileOculta ocultarDesktop" id="barra">
+        <i class='bx bxs-x-circle' style='color:#ffffff' id="cerrarNav"></i>
+        <ul>
+            <li ><a href="../index.html">Inicio</a></li>
+            <li >Comprar Cripto</li>
+            <li >Vender Cripto</li>
+            <li >Criptos</li>
+            <li >Wallet</li>
+        </ul>
+    </div>  
+
+    <nav class="animate__animated animate__fadeInDown">
+
+        <a href="../index.html"><img src="../assets/img/logo.png" alt=""></a>
+
+        <ul class="ocultarMobile">
+            <li class="botonNav"><a href="../index.html">Inicio</a></li>
+            <li class="botonNav">Comprar Cripto</li>
+            <li class="botonNav">Vender Cripto</li>
+            <li class="botonNav"><a href="./pages/cryptos.html">Cryptos</a></li>
+            <li class="botonWallet">Wallet</li>
+        </ul>
+
+        <i class='bx bx-menu ocultarDesktop' id="mostrarNav"></i>
+
+    </nav>
+
+    <h3>Principales 100 Criptomonedas</h3>
+    <div class="cryptosContenedor">
+        
+
+        <table class="criptos" cellspacing="20">
+
+            <tbody id="tablaCripto">
+
+              <tr class="detalleCrypto">
+                <th>Top</th>
+                <th>Nombre</th>
+                <th>Simbolo</th>
+                <th>Precio(USD)</th>
+                <th>Cap. de Mercado(USD)</th>
+                <th>Volumen(24h)</th>
+              </tr>
+
+
+
+            </tbody>
+          </table>
+
+
+    </div>
+
+
+
+
+
+
+    <footer>
+        <img src="./assets/img/logo.png" alt="">
+        <div class="contacto">
+            <ul>
+                <h2>Web creada por</h2>
+                <li>Nadir Sanchez</li>
+                <li>nadirblanco02@gmail.com</li>
+                <li>@2022 iCrypto todos los derechos reservados</li>
+            </ul>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/nadirsanchez/"><i class='bx bxl-linkedin-square'></i></a>   
+                <a href="https://github.com/nasanchez7"><i class='bx bxl-github'></i></a>    
+            </div>
+        </div>
+        <div class="servicios">
+            <ul>
+                <h2>Servicios</h2>
+                <li>Compra Crypto</li>
+                <li>Vender Crypto</li>
+                <li>Wallet</li>
+                <li>Mercado</li>
+            </ul>
+        </div>
+        <div class="acercaDe">
+            <ul>
+                <h2>Acerca de nosotros</h2>
+                <li><a href="https://docs.coincap.io/">API</a></li>
+                <li>Trabaja con nosotros</li>
+                <li>Certificaciones</li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="../assets/JS/cryptos.js" type="module"></script> 
+</body>
+</html>
