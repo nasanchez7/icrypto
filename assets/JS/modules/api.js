@@ -79,3 +79,23 @@ export async function cienCryptos (){
 
     
 }
+
+export async function coinsPrice(){
+    const infoCryptos = await fetch(`https://api.coincap.io/v2/assets`);
+    const cryptos = await infoCryptos.json();
+    const arrayCryptos = cryptos.data;
+
+    //Bitcoin
+    const bitcoin = arrayCryptos.filter(crypto => crypto.name == "Bitcoin");
+    const bitcoinPrice = document.getElementById("bitCoin-price");
+    const price = Number(bitcoin[0].priceUsd);
+    bitcoinPrice.innerHTML = price.toFixed(0) + " USD";
+
+    //Ethereum
+
+    const ethereum = arrayCryptos.filter(crypto => crypto.name == "Ethereum");
+    const ethereumPrice = document.getElementById("ethereum-price");
+    const priceE = Number(ethereum[0].priceUsd);
+    ethereumPrice.innerHTML = priceE.toFixed(0) + " USD";
+
+}

@@ -35,9 +35,8 @@
   color: #F7F7F7;
   cursor: pointer;
   border: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 .boton a {
   text-decoration: none;
   color: #F7F7F7;
@@ -63,29 +62,44 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .info .info2 {
   margin-top: 35px;
 }
-
 .info .info2 h2 {
   color: #F7F7F7;
   font-size: 50px;
   margin-bottom: 10px;
 }
-
 .info .info2 h4 {
-  color: #535353;
+  color: rgb(83, 83, 83);
   margin-bottom: 20px;
 }
-
 .info img {
   height: 330px;
 }
-
 .info img:hover {
   transform: scale(1.1);
   transition: 3s;
+}
+.info .users {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+}
+.info .users h3 {
+  font-size: 14px;
+  text-align: center;
+  margin-right: 6px;
+  color: #F7F7F7;
+}
+.info .users h4 {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+}
+.info .users img {
+  height: 30px;
 }
 
 .market {
@@ -96,12 +110,10 @@
   align-items: center;
   padding: 20px;
 }
-
 .market h2 {
   color: #F7F7F7;
   padding-left: 30px;
 }
-
 .market .cryptos {
   width: 90%;
   height: auto;
@@ -112,7 +124,6 @@
   justify-content: space-evenly;
   padding: 20px;
 }
-
 .market .cryptos .crypto {
   background: rgba(0, 0, 0, 0.17);
   backdrop-filter: blur(20px);
@@ -124,11 +135,9 @@
   justify-content: space-around;
   margin-top: 15px;
 }
-
 .market .cryptos .crypto h3 {
   color: #F7F7F7;
 }
-
 .market .cryptos .crypto:hover {
   background: rgba(0, 0, 0, 0.4);
   transition: 0.5s;
@@ -138,7 +147,6 @@
   display: flex;
   justify-content: space-around;
 }
-
 .cajaCrypto .caja {
   margin-top: 25px;
   width: 200px;
@@ -151,22 +159,18 @@
   justify-content: space-evenly;
   align-items: center;
 }
-
 .cajaCrypto .caja h2 {
   color: #F7F7F7;
   font-size: 20px;
 }
-
 .cajaCrypto .caja h3 {
   color: #3D3A50;
   font-size: 15px;
 }
-
 .cajaCrypto .caja img {
   width: 35px;
   height: 35px;
 }
-
 .cajaCrypto .caja:hover {
   background: rgba(0, 0, 0, 0.4);
   transition: 0.5s;
@@ -177,29 +181,24 @@
   align-items: center;
   justify-content: space-around;
   height: 100vh;
-  background: #020024;
-  background: linear-gradient(38deg, #020024 0%, #1a1c22 47%, #33196c 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(38deg, rgb(2, 0, 36) 0%, rgb(26, 28, 34) 47%, rgb(51, 25, 108) 100%);
 }
-
 .app .infoApp h2 {
   color: #F7F7F7;
   font-size: 50px;
 }
-
 .app .infoApp h3 {
-  color: #535353;
+  color: rgb(83, 83, 83);
   margin-bottom: 20px;
 }
-
 .app .infoApp img {
   cursor: pointer;
   margin-right: 10px;
 }
-
 .app .infoApp .infoDos-app {
   display: flex;
 }
-
 .app .infoApp .infoDos-app i {
   color: #580EF6;
   font-size: 30px;
@@ -208,8 +207,8 @@
 
 header {
   height: 100vh;
-  background: #020024;
-  background: linear-gradient(38deg, #020024 0%, #1a1c22 47%, #33196c 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(38deg, rgb(2, 0, 36) 0%, rgb(26, 28, 34) 47%, rgb(51, 25, 108) 100%);
 }
 
 nav {
@@ -219,17 +218,14 @@ nav {
   justify-content: space-between;
   padding: 50px;
 }
-
 nav img {
   width: 110px;
   cursor: pointer;
 }
-
 nav ul {
   display: flex;
   align-items: center;
 }
-
 nav a {
   text-decoration: none;
   color: #F7F7F7;
@@ -245,107 +241,87 @@ footer {
   display: flex;
   padding: 30px;
 }
-
 footer .contacto {
   margin-left: 50px;
 }
-
 footer .contacto h2 {
   color: #F7F7F7;
 }
-
 footer .contacto li {
   list-style-type: none;
-  color: #535353;
+  color: rgb(83, 83, 83);
   margin-top: 10px;
   cursor: pointer;
 }
-
 footer .contacto li:hover {
-  color: #727272;
+  color: rgb(114, 114, 114);
   transition: 0.3s;
 }
-
 footer .contacto i {
   color: #F7F7F7;
   font-size: 30px;
   margin-top: 10px;
   cursor: pointer;
 }
-
 footer .contacto i:hover {
-  color: #535353;
+  color: rgb(83, 83, 83);
   transition: 0.3s;
 }
-
 footer .servicios {
   margin-left: 50px;
 }
-
 footer .servicios h2 {
   color: #F7F7F7;
 }
-
 footer .servicios li {
   list-style-type: none;
-  color: #535353;
+  color: rgb(83, 83, 83);
   margin-top: 10px;
   cursor: pointer;
 }
-
 footer .servicios li a {
   text-decoration: none;
-  color: #535353;
+  color: rgb(83, 83, 83);
 }
-
 footer .servicios li a:hover {
-  color: #727272;
+  color: rgb(114, 114, 114);
   transition: 0.3s;
 }
-
 footer .servicios li:hover {
-  color: #727272;
+  color: rgb(114, 114, 114);
   transition: 0.3s;
 }
-
 footer img {
   height: 50px;
 }
-
 footer .acercaDe {
   margin-left: 50px;
 }
-
 footer .acercaDe h2 {
   color: #F7F7F7;
 }
-
 footer .acercaDe li {
   list-style-type: none;
-  color: #535353;
+  color: rgb(83, 83, 83);
   margin-top: 10px;
   cursor: pointer;
 }
-
 footer .acercaDe li a {
   text-decoration: none;
-  color: #535353;
+  color: rgb(83, 83, 83);
 }
-
 footer .acercaDe li a:hover {
-  color: #727272;
+  color: rgb(114, 114, 114);
   transition: 0.3s;
 }
-
 footer .acercaDe li:hover {
-  color: #727272;
+  color: rgb(114, 114, 114);
   transition: 0.3s;
 }
 
 .fondoCryptos {
   background-color: #1A1C22;
 }
-
 .fondoCryptos h3 {
   color: #F7F7F7;
   margin-left: 20px;
@@ -356,7 +332,6 @@ footer .acercaDe li:hover {
   flex-direction: column;
   align-items: center;
 }
-
 .cryptosContenedor table {
   background-color: #F7F7F7;
   border-radius: 10px;
@@ -365,12 +340,10 @@ footer .acercaDe li:hover {
   width: 90%;
   padding: 20px;
 }
-
 .cryptosContenedor table .infoCrypto {
   padding: 20px;
   background-color: rgba(230, 230, 230, 0.164);
 }
-
 .cryptosContenedor table .infoCrypto td {
   text-align: center;
 }
@@ -474,7 +447,6 @@ footer .acercaDe li:hover {
     overflow-x: scroll;
   }
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -482,6 +454,5 @@ footer .acercaDe li:hover {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-}
-/*# sourceMappingURL=styles.css.map */
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
